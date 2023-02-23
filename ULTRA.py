@@ -18,7 +18,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from cr import CX
+        from K64 import CX
  
         CX()
  
